@@ -1,0 +1,39 @@
+# Root .gitignore for Cloud_Optimization
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# VSCode
+.vscode/
+
+# Composer / PHP / Laravel
+backend/agentic-backend/vendor/
+backend/agentic-backend/.env
+backend/agentic-backend/.env.*
+backend/agentic-backend/storage/
+backend/agentic-backend/bootstrap/cache/
+backend/agentic-backend/node_modules/
+backend/agentic-backend/public/hot
+
+# PHPStorm
+.idea/
+
+# OneDrive/temp
+~$*
+
+# Logs
+logs/
+*.log
+
+# Misc
+*.swp
+*.swo

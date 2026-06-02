@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--color-background: #050505;
+	--color-card: #121212;
+	--color-neon-green: #39FF14;
+}
+
+body {
+	background-color: var(--color-background);
+	color: white;
+	font-family: 'Inter', system-ui, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.bg-card {
+	background-color: var(--color-card);
+}
+
+.text-neon-green {
+	color: var(--color-neon-green);
+}
+
+.bg-neon-green {
+	background-color: var(--color-neon-green);
+}
+
+.border-neon-green {
+	border-color: var(--color-neon-green);
+}
